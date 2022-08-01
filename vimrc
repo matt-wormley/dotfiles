@@ -122,7 +122,7 @@ augroup END
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 :set t_Co=256 " 256 colors
 :set background=dark
-:colorscheme xoria256
+":colorscheme xoria256
 ":colorscheme hybrid
 ":colorscheme molokai
 ":colorscheme solarized
@@ -400,8 +400,10 @@ endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-"set re=1
+" Use new regular expression engine
+set re=0
 syntax on
+
 
 "To enable restoring (for an xterm):
 ":te=\E[?1049l
